@@ -1,0 +1,220 @@
+body{
+    margin:0px 35px 0px 40px;
+    background-color: rgb(59, 61, 65);
+    background-image: url(img/fundo-preto.jpg);
+    color:white;
+
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 20px;
+}
+li{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100px;
+    height: 50px;
+}
+li:hover{
+   
+    width:100px;
+    height: 50px;
+    background-color: rgba(128, 128, 128, 0.425);
+    border-color: white;
+    border-radius: 50%;
+    border-style:dotted;
+    
+}
+a {
+    color: rgb(185, 187, 189);
+    text-decoration: none;
+    font-size: 20px;
+}
+header{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 300px;
+    margin-top: 70px;
+    margin-bottom: 150px;    
+}
+header img{
+    padding: 3px;    
+    width: 350px;
+    height: 300px;
+    border-radius: 50%;
+    border :2px solid gray;
+
+}
+.center{
+    text-align: center;
+}
+#nome{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+
+}
+h1{
+    padding: 15px;
+    font-size:55px;
+}
+h2{
+    font-size: 35px;
+}
+h3{
+    font-size: 25px;
+}
+p{
+    font-size: 20px;
+    margin-left: 25px;
+}
+footer {
+    margin-top: 60px;
+    text-align: center;
+}
+h5{
+    margin-top:3px;
+}
+#creditos{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: end;
+    font-size: 12px;
+    margin-top:35px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+ 
+     /*estilo projetos */
+#volta{
+    width: 20px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+#meu{
+    margin-top: 90px;
+    margin-bottom: 120px;
+    padding: 10px;
+    text-align: center;
+}
+.imagem{
+    margin-bottom: 15px;
+    width: 300px;
+    height: 200px;
+    border:2px solid gray;
+    padding: 6px;
+    border-radius: 99px; 
+}
+.centro{
+    
+    text-align: center;   
+    justify-content: space-between;
+    float:left;
+    margin:10px 20px;
+    padding:2%;
+    font-size: 20px;
+}
+#pro{
+    padding:20px 20px 20px 20px;
+    height:400px;
+    width: 95%;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.imagem:hover{
+    transition: all 0.5s;
+    cursor:pointer;
+    -webkit-transform: scale(1.2);
+    transform:scale(1.2);
+}
+    /*estilo contatos*/
+#contato{
+    margin-bottom: 80px;
+    text-align: center;
+}    
+fieldset{
+    width:70%;
+    margin: auto;
+    border: solid 2px gray;
+    border-radius: 5px;  
+    font-size: 25px; 
+    display: block;    
+}
+legend{
+    margin-bottom: 25px;
+}
+label{
+    margin-left: 3px;
+    display: flex;
+    width: 18%;
+    padding-right: 20px;
+} 
+input  {
+    width: 98%;
+    height: 20px;
+    display: flex;
+    border-radius: 18px;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;   
+}
+textarea{
+    border-radius: 18px;
+}   
+button{
+    padding:10px;
+    margin-top: 15px;
+    width:20%;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    font-size:20px ;
+}
+@media all and (max-width:720px) {
+    html,body{
+         width: 95%;
+         margin:auto;
+         align-items: center;
+    }
+    h1{
+         font-size: 35px;
+         margin:0px 0px 0px 10px;
+    }
+    header img{
+         width:95%;
+         height: 60%;
+    }
+    header{
+         height: 200px;
+    }
+    h2{
+         font-size: 20px;
+         margin:0px 0px 0px 10px;
+    }
+    #nome{
+         margin-top: 55px;
+    }
+    #pro{
+        display: block;
+        margin: auto;
+        width:90%;
+    }
+    .imagem{
+        width:80%;
+    }
+    label {
+        font-size: medium;
+    }
+    button{
+        font-size: small;
+    }
+}
